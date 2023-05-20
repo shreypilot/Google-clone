@@ -33,4 +33,5 @@ export default async function WebSearchPage({ searchParams }) {
     );
   }
   return <>{results && <WebSearchResults results={data} />}</>;
+
 }
